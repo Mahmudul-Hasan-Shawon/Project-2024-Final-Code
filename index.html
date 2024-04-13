@@ -238,11 +238,11 @@
                                       </div>
                                       <div class="row pt-2">
                                          <div class="container d-flex">
-                                            <div class="col-2">
+                                            <div class="col-2 col-md-6 col-sm-3 col-xs-6 col-lg-2">
                                                <img src="./images/Slide Profile Pic/1.png" alt="" srcset=""
                                                   style="height: 80px; width:80px">
                                             </div>
-                                            <div class="col-8">
+                                            <div class="col-6 col-md-8 ">
                                                <h4>Dr. John Martin</h4>
                                                <p style="font-size: 0.9rem;color:#248de7;">CANCER REASEARCH</p>
                                             </div>
@@ -480,8 +480,40 @@
             </div>
          </div>
       </div>
+      
+      <div class="container layer-container" style="background-color: #248de7;">
+         <div class="row align-items-center">
+             <div class="col-1 col-sm-2 col-lg-1">
+                 <img src="./images/Subscribe1-1.png" alt="" srcset="" style="height: 40px;">
+             </div>
+             <div class="col-12 col-sm-10 col-md-4">
+                 <h3 class="text-white">Latest Updates Subscribe To Our Newsletter</h3>
+             </div>
+             <div class="col-12 col-md-6">
+                 <form class="input-group">
+                     <input type="email" class="form-control custom-placeholder" placeholder="Enter Your Email" aria-label="Enter Your Email" aria-describedby="button-addon2" required>
+                     <div class="px-3"><button class="submit-btn" type="submit" id="button-addon2">SUBMIT</button></div>
+                 </form>
+             </div>
+         </div>
+     </div>
+     
+     <style>
+         ::placeholder {
+             color: white !important;
+             opacity: 0.5 !important;
+         }
+     
+         /* Custom class to target placeholder within form-control */
+         .custom-placeholder::placeholder {
+             color: white !important;
+             opacity: 0.8 !important;
+         }
+     </style>
+     
+     
       <!-- footer -->
-      <div class="container-fluid pt-5 pb-5 fancy-box">
+      <div class="container-fluid footer pb-5 fancy-box">
          <div class="container">
             <div class="row row-cols-4 pt-5">
                <div class="col-12 col-sm-12 col-lg-3 col-md-6 pt-4">
@@ -577,8 +609,55 @@
       padding: 0;
       /* Remove default padding */
       }
+      .footer{
+         padding-top: 5rem;
+      }
+
+      .layer-container {
+         position: relative;
+         top: 50%;
+         left: 35%;
+         transform: translate(-50%, 50%);
+         background-color: #248de7;
+         padding: 50px;
+         z-index: 9999; /* Ensure the container is above other content */
+       }
+
+      .form-control{
+         background-color: #3a9bed;
+         transition: ease-in-out 0.5s;
+         color: white;
+         border:none;
+         width: 7rem;
+         height: 54px;
+         padding: 8px;
+      }
+      .form-control:focus{
+         background-color: #3a9bed;
+         color: white;
+         border:none;
+      }
       
 
+      .submit-btn{
+         background-color: white;
+         transition: ease-in-out 0.5s;
+         border: none;
+         border-radius: 3px;
+         width: 7rem;
+         height: 54px;
+         padding: 8px;
+      }
+      .submit-btn:hover{
+         background-color: rgb(0, 0, 0);
+         color: white;
+         transition: ease-in-out 0.5s;
+         border: none;
+         border-radius: 3px;
+         width: 7rem;
+         height: 54px;
+         padding: 8px;
+      }
       .circle-box {
       background-color: white;
       height: 150px;
@@ -622,8 +701,8 @@
       text-align: center;
       }
       .col-lg-6 {
-      padding-top: 10rem;
-      padding-bottom: 10rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
       }
       .text-what-about-us {
       background-color: #d3e9fb;
