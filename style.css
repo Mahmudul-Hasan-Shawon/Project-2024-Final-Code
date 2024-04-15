@@ -187,6 +187,11 @@ scroll-behavior: smooth;
    width:  90%;
    height: 54px;
    padding: 20px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
 }
 
 .form-control-home:focus{
@@ -210,14 +215,8 @@ scroll-behavior: smooth;
 .form-control-home-message:focus{
    background-color: #ffffff;
    color: rgb(0, 0, 0);
-   border:1px;
-   border-color: #008cff;
-   border-radius: 5px;
    padding: 20px;
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   -ms-border-radius: 5px;
-   -o-border-radius: 5px;
+
 }
 
 
