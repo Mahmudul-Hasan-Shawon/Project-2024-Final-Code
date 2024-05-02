@@ -22,6 +22,12 @@ scroll-behavior: smooth;
    height: 600px;
 }
 
+.services-circle-image{
+   width: 12rem;
+}
+
+
+
 .home {
     position: absolute;
     top: 50%;
@@ -303,6 +309,18 @@ font-size: 2rem;
 min-height: 50px;
 transition: ease-in-out 0.3s;
 }
+
+.contact-box {
+background-color: #f4f6f9;
+border: #000000;
+font-size: 2rem;
+min-height: 50px;
+padding: 2rem;
+transition: ease-in-out 0.3s;
+border-radius: 5px;
+height: 300px;
+}
+
 .about-us {
 position: absolute;
 top: 50%;
